@@ -1,4 +1,4 @@
-import Person from "@/index"
+import Person from "@/person"
 
 it("should sum correctly", () => {
   const person = new Person()

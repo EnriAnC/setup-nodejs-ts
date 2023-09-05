@@ -1,7 +1,5 @@
-class Tree {
-  static sayMyName() {
-    return "Tree"
-  }
-}
+import Person from "@/person"
 
-export default Tree
+const person = new Person()
+
+export default person
