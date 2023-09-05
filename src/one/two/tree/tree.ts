@@ -1,3 +1,7 @@
-import Person from "@/index"
+class Tree {
+  static sayMyName() {
+    return "Tree"
+  }
+}
 
-console.log(new Person().sayMyName())
+export default Tree
